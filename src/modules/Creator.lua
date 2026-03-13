@@ -445,9 +445,7 @@ function Creator.Image(Img, Name, Corner, Folder, Type, IsThemeTag, Themed)
         })
     })
     if Creator.Icon(Img) then
-        ImageFrame.ImageLabel.Image = Creator.Icon(Img)[1]
-        ImageFrame.ImageLabel.ImageRectOffset = Creator.Icon(Img)[2].ImageRectPosition
-        ImageFrame.ImageLabel.ImageRectSize = Creator.Icon(Img)[2].ImageRectSize
+        ImageFrame.ImageLabel.Image = Creator.Icon(Img)
     end
     if string.find(Img,"http") then
         local FileName = "WindUI/" .. Folder .. "/Assets/." .. Type .. "-" .. Name .. ".png"
