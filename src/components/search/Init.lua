@@ -46,9 +46,7 @@ function SearchBar.new(TabModule, Parent, OnClose)
     })
     
     local CloseButton = New("ImageLabel", {
-        Image = Creator.Icon("x")[1],
-        ImageRectSize = Creator.Icon("x")[2].ImageRectSize,
-        ImageRectOffset = Creator.Icon("x")[2].ImageRectPosition,
+        Image = Creator.Icon("x"),
         BackgroundTransparency = 1,
         ThemeTag = {
             ImageColor3 = "Text",
@@ -119,9 +117,7 @@ function SearchBar.new(TabModule, Parent, OnClose)
                     BackgroundTransparency = 1,
                 }, {
                     New("ImageLabel", {
-                        Image = Creator.Icon("search")[1],
-                        ImageRectSize = Creator.Icon("search")[2].ImageRectSize,
-                        ImageRectOffset = Creator.Icon("search")[2].ImageRectPosition,
+                        Image = Creator.Icon("search"),
                         BackgroundTransparency = 1,
                         ThemeTag = {
                             ImageColor3 = "Icon",
@@ -226,9 +222,7 @@ function SearchBar.new(TabModule, Parent, OnClose)
                     PaddingBottom = UDim.new(0,SearchBarModule.Padding-2),
                 }),
                 New("ImageLabel", {
-                    Image = Creator.Icon(Icon)[1],
-                    ImageRectSize = Creator.Icon(Icon)[2].ImageRectSize,
-                    ImageRectOffset = Creator.Icon(Icon)[2].ImageRectPosition,
+                    Image = Creator.Icon(Icon),
                     BackgroundTransparency = 1,
                     ThemeTag = {
                         ImageColor3 = "Text",
