@@ -11,9 +11,7 @@ function Input.New(Placeholder, Icon, Parent, Type, Callback)
     local IconInputFrame
     if Icon and Icon ~= "" then
         IconInputFrame = New("ImageLabel", {
-            Image = Creator.Icon(Icon)[1],
-            ImageRectSize = Creator.Icon(Icon)[2].ImageRectSize,
-            ImageRectOffset = Creator.Icon(Icon)[2].ImageRectPosition,
+            Image = Creator.Icon(Icon),
             Size = UDim2.new(0,24-3,0,24-3),
             BackgroundTransparency = 1,
             ThemeTag = {
