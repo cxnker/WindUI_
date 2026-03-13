@@ -10,7 +10,7 @@ local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local LocalizationService = game:GetService("LocalizationService")
 
-local Icons = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Footagesus/Icons/main/Main.lua"))()
+local Icons = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/cxnker/WindUI_/main/Icons/main.lua"))()
 Icons.SetIconsType("lucide")
 
 local Creator = {
