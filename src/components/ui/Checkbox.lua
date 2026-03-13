@@ -16,9 +16,7 @@ function Checkbox.New(Value, Icon, Parent, Callback)
         BackgroundTransparency = 1,
         AnchorPoint = Vector2.new(0.5,0.5),
         Position = UDim2.new(0.5,0,0.5,0),
-        Image = Creator.Icon(Icon)[1],
-        ImageRectOffset = Creator.Icon(Icon)[2].ImageRectPosition,
-        ImageRectSize = Creator.Icon(Icon)[2].ImageRectSize,
+        Image = Creator.Icon(Icon),
         ImageTransparency = 1,
         ImageColor3 = Color3.new(1,1,1),
     })
